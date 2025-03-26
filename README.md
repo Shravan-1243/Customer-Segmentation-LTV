@@ -79,11 +79,7 @@ It includes online transactional data for a UK-based and registered non-store on
 - Enables data-driven **retention strategies**
 ---
 ## Repository Structure
-├── ltv-model-project.ipynb # Kaggle Notebook with full analysis
-├── Project-Data.ipynb # Initial data exploration
-├── IPR-Updated.docx # Interim Project Report
-├── Customer_Segmentation_Gantt.pdf # Timeline plan
-├── README.md # Project summary and documentation
+├── 📓 ltv-model-project.ipynb # Final Kaggle notebook with full analysis, RFM, clustering & LTV ├── 📓 Project-Data.ipynb # Initial data exploration and cleaning ├── 📄 IPR-Updated.docx # Interim Project Report ├── 📄 Customer_Segmentation_Gantt.pdf # Project timeline and planning document ├── 📄 README.md # Project summary, methodology, and insights (this file)
 ---
 ## Conclusion
 Through RFM-based segmentation and LTV modeling, this project identifies valuable customer cohorts that significantly influence revenue. It supports data-driven marketing and retention strategies in e-commerce
