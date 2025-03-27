@@ -81,6 +81,16 @@ It includes online transactional data for a UK-based and registered non-store on
 ## Repository Structure
 ├── 📓 ltv-model-project.ipynb # Final Kaggle notebook with full analysis, RFM, clustering & LTV ├── 📓 Project-Data.ipynb # Initial data exploration and cleaning ├── 📄 IPR-Updated.docx # Interim Project Report ├── 📄 Customer_Segmentation_Gantt.pdf # Project timeline and planning document ├── 📄 README.md # Project summary, methodology, and insights (this file)
 ---
+## XGBoost Model for LTV Prediction
+Used XGBoost Regression to predict Customer Lifetime Value (LTV) based on RFM features and cluster segments.
+
+Model Metrics:
+**RMSE: 122411.74**
+
+**MAE: 7954.32**
+
+**R² Score: 0.9205**
+---
 ## Conclusion
 Through RFM-based segmentation and LTV modeling, this project identifies valuable customer cohorts that significantly influence revenue. It supports data-driven marketing and retention strategies in e-commerce
 ---
