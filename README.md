@@ -85,11 +85,10 @@ It includes online transactional data for a UK-based and registered non-store on
 Used XGBoost Regression to predict Customer Lifetime Value (LTV) based on RFM features and cluster segments.
 
 Model Metrics:
-**RMSE: 122411.74**
+**RMSE: 122411.74
+MAE: 7954.32
+R² Score: 0.9205**
 
-**MAE: 7954.32**
-
-**R² Score: 0.9205**
 ---
 ## Conclusion
 Through RFM-based segmentation and LTV modeling, this project identifies valuable customer cohorts that significantly influence revenue. It supports data-driven marketing and retention strategies in e-commerce
