@@ -7,11 +7,11 @@ The dataset used in this project is available on Kaggle:
 It includes online transactional data for a UK-based and registered non-store online retail company.
 ---
 ## Project Overview
-- Customer Segmentation using **RFM (Recency, Frequency, Monetary)** analysis
-- Application of **K-Means Clustering** for grouping similar customer profiles
-- Calculation of **Customer Lifetime Value (LTV)**
-- Conducting a **Profitability Analysis** by segment
-- Visualizing customer behavior and deriving **actionable insights**
+- Customer Segmentation using **RFM (Recency, Frequency, Monetary)** & K-Means
+- **Customer Lifetime Value (LTV)** Prediction using **Random Forest**
+- Segment-wise **Profitability** and **Revenue Analysis**
+- Feature Importance from ML Models
+- Data Visualization & Actionable Insights
 
  Business Use Case:
 - Identify loyal/high-value customers for loyalty rewards
@@ -40,12 +40,15 @@ It includes online transactional data for a UK-based and registered non-store on
    - Elbow method used to identify optimal K (K = 4)
    - Customers grouped into 4 clusters
 
-5. **Customer LTV Estimation**
-  - LTV calculated using:
-    - Average Order Value (AOV)
-    - Purchase Frequency
-    - Churn Rate
-    - Expected number of repeat cycles (1 / Churn Rate)
+5. **Customer LTV Estimation using Random Forest**
+- Trained a Random Forest Regressor model on RFM + Cluster features
+- Evaluated using RMSE, MAE, and R² score (R² ≈ 0.9864 indicates high accuracy)
+- Extracted Feature Importance to identify key drivers (Monetary, Cluster)
+
+6. **LTV Segmentation & Revenue Analysis**
+- Divided predicted LTV into 4 quantiles: Low, Medium, High, Very High
+- Analyzed customer count and total revenue by LTV segments
+- Cross-tabbed LTV segments with customer clusters (heatmap)
 
 7. **Profitability Segmentation**
    - Segments analyzed based on LTV and total profit contribution
@@ -60,6 +63,10 @@ It includes online transactional data for a UK-based and registered non-store on
   - New or inactive customers
   - Mid-tier profitable customers
   - Low-spending customers
+- Very High LTV customers contribute the majority of total revenue
+- Monetary value and Cluster ID were the most influential features in LTV prediction
+- Cluster 0 had a significant number of Very High LTV customers
+- LTV segmentation enabled clear revenue attribution and customer prioritization
 
 - **LTV Distribution**:
   - Wide gap in lifetime value across clusters
@@ -67,7 +74,8 @@ It includes online transactional data for a UK-based and registered non-store on
 ---
 ## Tools & Technologies
 
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- Python (RandomForestRegressor from sklearn, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+- Seaborn/Matplotlib for plotting LTV visualizations
 - Kaggle Notebook
 - GitHub for version control & project sharing
 ---
@@ -88,6 +96,14 @@ Model Metrics:
 **RMSE: 122411.74
 MAE: 7954.32
 R² Score: 0.9205**
+
+## Random Forest Model for LTV Prediction
+Used Random Forest Regression to predict Customer Lifetime Value (LTV) based on RFM features and cluster segments.
+
+Model Metrics:
+**RMSE: 50527.50
+MAE: 2377.41
+R² Score: 0.9864**
 
 ---
 ## Conclusion
