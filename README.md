@@ -120,9 +120,9 @@ Special thanks to my supervisor *Dr. Julia Goncharenko* for her guidance and sup
 ## Contact Me
 Name: Shravan Somashekar Kanamadi
 
-LinkedIn: linkedin.com/in/shravan-kanamadi-338715178
-
 Email: shravankanamadi12@gmail.com
+
+LinkedIn: linkedin.com/in/shravan-kanamadi-338715178
 
 ---
 
