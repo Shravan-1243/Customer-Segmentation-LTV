@@ -118,7 +118,7 @@ This MSc project showcased how combining RFM segmentation with behavioural clust
 Special thanks to my supervisor *Dr. Julia Goncharenko* for her guidance and support, and to the open-source community for the tools that made this project possible.
 
 ## Contact Me
-Name: Shravan Somashekar Kanamadi
+Name: Shravan Kanamadi
 
 Email: shravankanamadi12@gmail.com
 
