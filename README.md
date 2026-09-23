@@ -122,6 +122,6 @@ Name: Shravan Kanamadi
 
 Email: shravankanamadi12@gmail.com
 
-LinkedIn: linkedin.com/in/shravan-kanamadi-338715178
+LinkedIn: https://www.linkedin.com/in/shravankanamadi-338715178
 
 ---
