@@ -125,5 +125,3 @@ Email: shravankanamadi12@gmail.com
 LinkedIn: linkedin.com/in/shravan-kanamadi-338715178
 
 ---
-
-Let me know if you'd like a `short pinned post` to go on top of this repo or your LinkedIn profile too!
